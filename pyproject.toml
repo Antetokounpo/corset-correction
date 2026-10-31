@@ -8,11 +8,16 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
     "requests>=2.32",
+    "scipy>=1.18.1",
 ]
 
 [project.scripts]
 download-data = "corset_correction.download_data:main"
+preprocess-data = "corset_correction.preprocess:main"
+analyze-data = "corset_correction.analyze:main"
 
 [build-system]
 requires = ["uv_build>=0.13.5,<0.14.0"]
