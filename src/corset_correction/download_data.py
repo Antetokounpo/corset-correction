@@ -7,9 +7,9 @@ from urllib.parse import unquote
 import requests
 
 # Paste the Borealis dataset URL (or DOI) here.
-DATASET_URL = ""
+DATASET_URL = "https://demo.borealisdata.ca/dataset.xhtml?persistentId=doi:10.80240/FK2/HLKYWD"
 
-BOREALIS_URL = "https://borealisdata.ca"
+BOREALIS_URL = "https://demo.borealisdata.ca"
 OUTPUT_DIR = Path.cwd() / "data" / "raw"
 
 
