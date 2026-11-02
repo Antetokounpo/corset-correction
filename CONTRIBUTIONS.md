@@ -10,6 +10,16 @@ Veuillez consulter notre [Code de conduite](./CODE_DE_CONDUITE.md) afin que tout
 
 Un language simple et clair est favorisé. Pour encourager la clarté, nous conseillons d'éviter toute abréviations, ou le jargon très technique. 
 
+### Conventions de codage
+
+Le code du projet est écrit en Python et doit rester simple, lisible et reproductible.
+
+- Respecter [PEP 8](https://peps.python.org/pep-0008/) : indentation de 4 espaces, lignes d'au plus 88 caractères et espacement cohérent.
+- Utiliser des noms explicites en anglais et en `snake_case` pour les variables et les fonctions, et en `UPPER_CASE` pour les constantes.
+- Déclarer les dépendances dans `pyproject.toml` et les installer avec `uv`; ne pas versionner l'environnement virtuel ni les fichiers générés.
+- Commenter le code lorsque cela explique une décision ou une méthode, sans paraphraser chaque ligne.
+- Avant de soumettre une pull request, vérifier que les commandes existantes s'exécutent sans erreur.
+
 ## Soumettre des modifications
 
 Les commits de vos modifications de la branche main doivent être effectués dans de nouvelles branches. Veuillez nommer vos branches avec la convention de [Conventional Branch, version 1.1.0](https://conventionalbranch.org/#summary). 
