@@ -1,6 +1,6 @@
 # Reproducibility review — Lab 4
 
-- Reviewer: Nasma Drissi
+- Reviewers: Nasma Drissi and Ronald Sim
 - Repository: https://github.com/Antetokounpo/corset-correction
 - Review date: 3 November 2026
 - Operating system: Windows 11
@@ -29,20 +29,23 @@ I also used ChatGPT to help commit the checklist, set up the origin and upstream
 
 ## Reproducibility
 
-- [ ] Required dependencies are documented.
-- [ ] Core functionality is documented.
+- [x] Required dependencies are documented.
+- [x] Core functionality is documented.
 - [x] Example commands are provided.
 - [x] The documented commands execute successfully.
 - [x] The software produces the expected outputs.
-- [ ] Performance claims are verified, or none are made.
-- [ ] Results can be reproduced using only the repository instructions.
+- [x] Performance claims are verified, or none are made.
+- [x] Results can be reproduced using only the repository instructions.
 
 ### Commands executed
 
-    uv sync
-    uv run download-data
-    uv run preprocess-data
-    uv run analyze-data
+>`uv sync`
+
+>`uv run download-data`
+
+>`uv run preprocess-data`
+
+>`uv run analyze-data`
 
 ### Execution notes
 
@@ -72,20 +75,34 @@ I have not yet assessed the scientific interpretations.
 
 ## Open-source development history
 
-- [ ] Public and iterative development is visible through issues,
+- [x] Public and iterative development is visible through issues,
       pull requests and commits.
 
 ## Community guidelines
 
-- [ ] Contribution instructions are provided.
-- [ ] Instructions for reporting problems are provided.
+- [x] Contribution instructions are provided.
+- [x] Instructions for reporting problems are provided.
 - [ ] Instructions for requesting support are provided.
 
 ## Issues and contributions
 
-- Issue: TO COMPLETE
-- Pull request: TO COMPLETE
+- Issues:
+    
+    - [Issue #18](https://github.com/Antetokounpo/corset-correction/issues/18) : Adding uv installation steps for Windows: The problem 
+    
+      >`The term 'uv' is not recognized as the name of a cmdlet, function, script file, or operable program.`
+      
+      was encountered after installing `uv` and running the command `uv sync`. The fix was printed in the terminal after installation, but mentioning it in the README could
+      be useful for users relying entirely on the README's instructions and might miss the instructions printed in the terminal.
+    - [Issue #20](https://github.com/Antetokounpo/corset-correction/issues/20) : Instructions for requesting support are not explicitly provided. The repo lists
+    administrator email addresses for reporting violations of community guidelines in `CODE_DE_CONDUITE.md`, and guidelines to raise an Issue on GitHub in
+    `CONTRIBUTIONS.md`. However, there are no explicit guidelines for users looking for technical support.
+- Pull requests:
+    - [PR #17](https://github.com/Antetokounpo/corset-correction/pull/17) : Add reproducibility review checklist
+    - [PR #19](https://github.com/Antetokounpo/corset-correction/pull/19) : Document uv installation on Windows
+    - [PR #21](https://github.com/Antetokounpo/corset-correction/pull/21) : Add support section to README
+ 
 
 ## Final assessment
 
-TO COMPLETE BY THE REVIEWER
+Overall, the repository is well organized and provides easy-to-follow instructions. The project is reproducible, with only minor improvements needed in the documentation. These improvements have been documented in GitHub Issues, and proposed changes have been submitted through pull requests.
