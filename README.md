@@ -169,10 +169,18 @@ corset-correction/
 │       └── analyze.py
 └── .github/
     └── workflows/
+        ├── ci.yml
         └── pr_dependency.yml
 ```
 
 Les répertoires `data/`, `figures/` et `results/` sont générés par le pipeline et exclus du contrôle de version.
+
+## Intégration continue
+
+Deux workflows GitHub Actions sont définis dans `.github/workflows/` :
+
+- `ci.yml` s'exécute à l'ouverture ou à la mise à jour d'une pull request vers `main`, ainsi qu'après un push sur `main`. Il installe Python avec `uv`, crée l'environnement avec `uv sync --locked`, vérifie l'importation des dépendances, puis exécute successivement `download-data`, `preprocess-data` et `analyze-data`. Il vérifie finalement que le fichier de résultats et les deux figures ont bien été générés.
+- `pr_dependency.yml` s'exécute lors des événements `pull_request_target` et utilise `gregsdennis/dependencies-action` afin de vérifier les dépendances déclarées entre les pull requests.
 
 ## Contribution
 

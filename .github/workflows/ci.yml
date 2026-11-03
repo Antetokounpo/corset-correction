@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test environment and scripts
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+          enable-cache: true
+
+      - name: Install Python
+        run: uv python install
+
+      - name: Create the environment
+        run: uv sync --locked
+
+      - name: Check dependencies
+        run: uv run python -c "import matplotlib, pandas, requests, scipy; print('Dependencies OK')"
+
+      - name: Download the data
+        run: uv run download-data
+
+      - name: Preprocess the data
+        run: uv run preprocess-data
+
+      - name: Analyze the data
+        run: uv run analyze-data
+
+      - name: Verify generated outputs
+        run: |
+          test -s results/regression_results.csv
+          test -s figures/pression_vs_tension.png
+          test -s figures/cobb_vs_tension.png
