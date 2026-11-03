@@ -64,6 +64,34 @@ Les données sont utilisées conformément à leur licence CC BY-NC 4.0. Elles p
    cd corset-correction
    ```
 
+#### Installation de uv sous Windows
+
+Dans PowerShell, installer uv avec la commande officielle :
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+Fermer puis rouvrir le terminal. Si vous utilisez le terminal intégré
+de VS Code, redémarrer VS Code.
+
+Vérifier ensuite l’installation :
+
+```powershell
+uv --version
+```
+
+Si la commande n’est toujours pas reconnue et que uv a été installé
+dans le dossier par défaut, ajouter ce dossier au PATH du terminal :
+
+```powershell
+$env:Path = "$env:USERPROFILE\.local\bin;$env:Path"
+```
+
+Puis relancer `uv --version`.
+
+Documentation officielle : https://docs.astral.sh/uv/getting-started/installation/
+
 2. Installer [uv](https://docs.astral.sh/uv/) si ce n'est pas déjà fait, puis synchroniser l'environnement Python :
 
    ```bash
@@ -88,7 +116,6 @@ uv run analyze-data
 ```
 
 Les résultats numériques sont écrits dans `results/regression_results.csv` et les figures dans `figures/`.
-
 
 ## Liste des figures et des résultats
 
