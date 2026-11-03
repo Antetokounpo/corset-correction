@@ -12,7 +12,8 @@
 7. [Structure des fichiers](#structure-des-fichiers)
 8. [Intégration continue](#intégration-continue)
 9. [Contribution](#contribution)
-10. [Références](#références)
+10. [Support](#support)
+11. [Références](#références)
 
 
 ## Aperçu
@@ -190,6 +191,13 @@ Deux workflows GitHub Actions sont définis dans `.github/workflows/` :
 
 Les contributions sont encadrées par le guide [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) et le [Code de conduite](./CODE_DE_CONDUITE.md). Les modifications doivent être proposées dans une branche dédiée et soumises par pull request.
 
+## Support
+
+Pour obtenir de l'aide technique concernant l'installation ou l'utilisation du projet, ou pour poser des questions générales sur le projet, veuillez envoyer un email directement à Danika Duval (danika.duval@etud.polymtl.ca) et/ou Antoine Reid (antoine-2.reid@etud.polymtl.ca).
+
+Veuillez décrire clairement votre question et fournir les informations pertinentes pour faciliter la réponse.
+
+Pour signaler un bogue, consultez les instructions du fichier [CONTRIBUTIONS.md](./CONTRIBUTIONS.md).
 
 ## Références
 
