@@ -151,6 +151,8 @@ corset-correction/
 ├── Rapport.md
 ├── CODE_DE_CONDUITE.md
 ├── CONTRIBUTIONS.md
+├── AI_prompts.md
+├── LICENSE.md
 ├── pyproject.toml
 ├── uv.lock
 ├── .python-version
