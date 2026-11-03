@@ -11,27 +11,29 @@
 
 AI assistance included explanations of commands and installation support.
 
+I also used ChatGPT to help commit the checklist, set up the origin and upstream remotes, and push my branch to my fork. It helped me handle repeated “Deletion of directory failed” prompts by stopping the command and checking the remotes before continuing. I ran the commands myself in PowerShell.
+
 ## Code of Conduct
 
-- [ ] The repository contains a Code of Conduct.
-- [ ] I have read it and will follow it.
+- [x] The repository contains a Code of Conduct.
+- [x] I have read it and will follow it.
 
 ## General checks
 
-- [ ] The source code is publicly available.
-- [ ] An open-source license is provided.
-- [ ] Instructions for citing the project are provided.
-- [ ] The repository structure is clear.
-- [ ] The README explains the project and installation.
-- [ ] Research artifacts are openly available.
+- [x] The source code is publicly available.
+- [x] An open-source license is provided.
+- [x] Instructions for citing the project are provided.
+- [x] The repository structure is clear.
+- [x] The README explains the project and installation.
+- [x] Research artifacts are openly available.
 
 ## Reproducibility
 
 - [ ] Required dependencies are documented.
 - [ ] Core functionality is documented.
-- [ ] Example commands are provided.
-- [ ] The documented commands execute successfully.
-- [ ] The software produces the expected outputs.
+- [x] Example commands are provided.
+- [x] The documented commands execute successfully.
+- [x] The software produces the expected outputs.
 - [ ] Performance claims are verified, or none are made.
 - [ ] Results can be reproduced using only the repository instructions.
 
