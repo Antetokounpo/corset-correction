@@ -153,13 +153,17 @@ corset-correction/
 ├── CONTRIBUTIONS.md
 ├── AI_prompts.md
 ├── LICENSE.md
+├── .gitignore
 ├── pyproject.toml
 ├── uv.lock
 ├── .python-version
 ├── data/
 │   ├── raw/              # Données téléchargées, non versionnées
 │   └── processed/        # Données préparées pour l'analyse, non versionnées
-├── figures/              # Figures générées, non versionnées
+├── img/                  # Figures versionnées utilisées dans Rapport.md
+│   ├── cobb_vs_tension.png
+│   └── pression_vs_tension.png
+├── figures/              # Figures générées par l'analyse, non versionnées
 ├── results/              # Résultats numériques générés, non versionnés
 ├── src/
 │   └── corset_correction/
@@ -172,7 +176,7 @@ corset-correction/
         └── pr_dependency.yml
 ```
 
-Les répertoires `data/`, `figures/` et `results/` sont générés par le pipeline et exclus du contrôle de version.
+Les répertoires `data/`, `figures/` et `results/` sont générés par le pipeline et exclus du contrôle de version. Le répertoire `img/` contient les figures versionnées utilisées dans `Rapport.md`.
 
 ## Contribution
 

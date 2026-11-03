@@ -53,12 +53,12 @@ De manière plus générale, les résultats semblent démontrer que les relation
 
 Les différences entre les deux zones peuvent être observées avec des graphiques des régressions linéaires ainsi que les points d'observations pour la pression en fonction de la tension (Figure 1), et la correction en fonction de la tension (Figure 2). Tandis que les données et courbes au niveau thoracique suivent une certaine linéarité en fonction de la tension de sangle, nous observons que les courbes et données au niveau lombaire semblent démontrer une indépendance en fonction de la tension de sangle pour la pression (p=0.052) (Tableau 3) et possiblement l'angle de Cobb (p=0.023) (Tableau 3). 
 
-![alt text](pression_vs_tension.png)
+![alt text](img/pression_vs_tension.png)
 
 Figure 1: Les données observées ainsi que les modèles de régression linéaire pour la pression en fonction de la tension.
 
 
-![alt text](cobb_vs_tension.png)
+![alt text](img/cobb_vs_tension.png)
 
 Figure 2: Les données observées ainsi que les modèles de régression linéaire pour l'angle de Cobb en fonction de la tension.
 
