@@ -64,7 +64,7 @@ Les données sont utilisées conformément à leur licence CC BY-NC 4.0. Elles p
    cd corset-correction
    ```
 
-#### Installation de uv sous Windows
+2. Installer [uv](https://docs.astral.sh/uv/) si ce n'est pas déjà fait. Voici les étapes d'installation de uv sous Windows:
 
 Dans PowerShell, installer uv avec la commande officielle :
 
