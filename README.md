@@ -90,7 +90,7 @@ $env:Path = "$env:USERPROFILE\.local\bin;$env:Path"
 
 Puis relancer `uv --version`.
 
-Documentation officielle : https://docs.astral.sh/uv/getting-started/installation/
+Veuillez consulter la documentation officielle pour plus d'informations sur l'installation de uv: https://docs.astral.sh/uv/getting-started/installation/
 
 2. Installer [uv](https://docs.astral.sh/uv/) si ce n'est pas déjà fait, puis synchroniser l'environnement Python :
 
