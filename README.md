@@ -92,7 +92,7 @@ Puis relancer `uv --version`.
 
 Veuillez consulter la documentation officielle pour plus d'informations sur l'installation de uv: https://docs.astral.sh/uv/getting-started/installation/
 
-2. Installer [uv](https://docs.astral.sh/uv/) si ce n'est pas déjà fait, puis synchroniser l'environnement Python :
+3. Synchroniser l'environnement Python :
 
    ```bash
    uv sync
