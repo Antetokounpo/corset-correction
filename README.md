@@ -197,7 +197,7 @@ Pour obtenir de l'aide technique concernant l'installation ou l'utilisation du p
 
 Si vous n'obtenez pas de réponse d'ici 48 h, veuillez envoyer un courriel aux modérateurs, Danika Duval (danika.duval@etud.polymtl.ca) et/ou Antoine Reid (antoine-2.reid@etud.polymtl.ca).
 
-Pour signaler un bogue, consultez les instructions du fichier [CONTRIBUTIONS.md](./CONTRIBUTIONS.md).
+Pour signaler un bogue ou suggérer une modification, consultez les instructions du fichier [CONTRIBUTIONS.md](./CONTRIBUTIONS.md).
 
 ## Références
 
