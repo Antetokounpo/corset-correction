@@ -197,7 +197,7 @@ Pour obtenir de l'aide technique concernant l'installation ou l'utilisation du p
 
 Si vous n'obtenez pas de réponse d'ici 48 h, veuillez envoyer un courriel aux modérateurs, Danika Duval (danika.duval@etud.polymtl.ca) et/ou Antoine Reid (antoine-2.reid@etud.polymtl.ca).
 
-Votre issue et/ou votre courriel doit suivre le [Code de conduite](./CODE_DE_CONDUITE.md) du projet.
+Votre problème GitHub et/ou votre courriel doit suivre le [Code de conduite](./CODE_DE_CONDUITE.md) du projet.
 
 Pour signaler un bogue ou suggérer une modification, consultez les instructions du fichier [CONTRIBUTIONS.md](./CONTRIBUTIONS.md).
 
