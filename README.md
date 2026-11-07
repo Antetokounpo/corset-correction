@@ -181,6 +181,7 @@ corset-correction/
 ├── CONTRIBUTIONS.md
 ├── AI_prompts.md
 ├── LICENSE.md
+├── review_checklist.md
 ├── .gitignore
 ├── pyproject.toml
 ├── uv.lock
